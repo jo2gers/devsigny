@@ -4,7 +4,7 @@
     import {selectedtheme} from "../lib/stores/themestore"
   </script>
   
-<div data-theme={$selectedtheme} class="h-screen w-screen flex flex-col">
+<div data-theme={$selectedtheme} class="h-screen w-screen flex flex-col bg-base-300">
     <Topbar />
     <slot />
 
