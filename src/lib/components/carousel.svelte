@@ -6,6 +6,7 @@
     class="carousel-item relative w-full flex flex-col rounded-box"
   >
     <div class="rounded-box overflow-hidden">
+      <!-- svelte-ignore a11y-missing-attribute -->
       <img src="shopifykux.png" class="w-full" />
       <div
         class="absolute left-5 right-5 top-1/4 flex -translate-y-1/2 transform justify-between"
@@ -33,6 +34,7 @@
     class="carousel-item relative w-full flex flex-col rounded-box"
   >
     <div class="rounded-box overflow-hidden">
+      <!-- svelte-ignore a11y-missing-attribute -->
       <img src="kappdigital.png" class="w-full" />
       <div
         class="absolute left-5 right-5 top-1/4 flex -translate-y-1/2 transform justify-between"
@@ -60,6 +62,7 @@
     class="carousel-item relative w-full flex flex-col rounded-box"
   >
     <div class="rounded-box overflow-hidden">
+      <!-- svelte-ignore a11y-missing-attribute -->
       <img src="jpm.png" class="w-full" />
       <div
         class="absolute left-5 right-5 top-1/4 flex -translate-y-1/2 transform justify-between"

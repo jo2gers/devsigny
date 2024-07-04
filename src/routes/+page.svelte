@@ -2,8 +2,8 @@
     import { selectedtheme } from "../lib/stores/themestore";
     import { fly } from "svelte/transition";
     import Carousel from "../lib/components/carousel.svelte";
-    let devs = true;
-    let igny = true;
+    let devs = false;
+    let igny = false;
 </script>
 
 <div class="grid grid-cols-7 flex-1">
