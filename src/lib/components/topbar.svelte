@@ -1,49 +1,43 @@
 <script>
     import { selectedtheme } from "../stores/themestore";
+    import { clickOutside } from "$lib/utils/clickOutside.js"
 
     let themes = [
         "light",
         "dark",
         "cupcake",
         "bumblebee",
-        "emerald",
-        "corporate",
         "synthwave",
         "retro",
         "cyberpunk",
-        "valentine",
         "halloween",
-        "garden",
         "forest",
         "aqua",
         "lofi",
-        "pastel",
-        "fantasy",
-        "wireframe",
-        "black",
-        "luxury",
-        "dracula",
-        "cmyk",
-        "autumn",
-        "business",
-        "acid",
-        "lemonade",
-        "night",
-        "coffee",
-        "winter",
-        "dim",
-        "nord",
-        "sunset"
     ];
 
     function changetheme(theme) {
         $selectedtheme = theme;
     }
+
+
+
+    let menuRef;
+    const handleClickOutside = () => {
+        if (menuRef) {
+            menuRef.open = false;
+        }
+    };
 </script>
 
 <div class="navbar bg-base-100">
     <div class="navbar-start">
-        <details class="dropdown">
+        <details
+            bind:this={menuRef}
+            class="dropdown"
+            use:clickOutside
+            on:click_outside={handleClickOutside}
+        >
             <summary class="btn btn-ghost btn-circle">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -89,4 +83,3 @@
         </button>
     </div>
 </div>
-

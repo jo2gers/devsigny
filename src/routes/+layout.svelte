@@ -7,7 +7,7 @@
 
 <div
   data-theme={$selectedtheme}
-  class="relative h-screen w-screen flex flex-col bg-transparent"
+  class="relative h-screen w-screen flex flex-col bg-transparent select-none"
 >
   <div class="absolute min-h-screen top-0 left-0 w-full z-[-1] opacity-100">
     <div class="absolute inset-0">

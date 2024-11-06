@@ -6,7 +6,7 @@
     let igny = false;
 </script>
 
-<div class="grid grid-cols-7 flex-1">
+<div class="grid grid-cols-7 flex-1 ">
     <div class="flex items-center justify-end col-span-2">
         {#if devs}
             <div class="bg-base-100 w-[90%] h-[60%] rounded-box -mr-[20%] text-base-content p-3 flex flex-col" transition:fly={{ x: "-50%" }}>

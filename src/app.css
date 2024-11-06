@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 /* src/app.css */
-body {
+/* body {
     cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAgAB/FDKC2QAAAAASUVORK5CYII='), auto;
-}
+} */
 /* src/app.css */
-button {
+/* button {
     cursor: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/wcAAgAB/FDKC2QAAAAASUVORK5CYII='), pointer;
-}
+} */
 /* src/app.css */
 
